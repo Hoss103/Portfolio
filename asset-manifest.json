@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.01045b9d.css",
-    "main.js": "/Portfolio/static/js/main.da42577c.js",
+    "main.css": "/Portfolio/static/css/main.6e2228ae.css",
+    "main.js": "/Portfolio/static/js/main.92d06722.js",
     "static/js/453.f72c7bf9.chunk.js": "/Portfolio/static/js/453.f72c7bf9.chunk.js",
     "static/media/Instagram_icon.png": "/Portfolio/static/media/Instagram_icon.3d74bf8eb0d135d2951d.png",
+    "static/media/pngtree-startup-project-mobile-development-team-rocket-takes-off-for-launching-a-png-image_4520231.png": "/Portfolio/static/media/pngtree-startup-project-mobile-development-team-rocket-takes-off-for-launching-a-png-image_4520231.6d00b8652ba97d6b9f92.png",
     "static/media/Facebook_Logo_2023.png": "/Portfolio/static/media/Facebook_Logo_2023.9d6bb3752f951a133221.png",
     "static/media/5e72f9747d02a-384x384.png": "/Portfolio/static/media/5e72f9747d02a-384x384.acaf924902dfdd9038ed.png",
     "static/media/revicons.eot": "/Portfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/gato-de-terno-suit-cat.gif": "/Portfolio/static/media/gato-de-terno-suit-cat.4333eaf1bd495f2b9e4f.gif",
     "static/media/revicons.ttf": "/Portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/My_CV.pdf": "/Portfolio/static/media/My_CV.52aaaf88bbd59a5e6685.pdf",
     "static/media/revicons.woff": "/Portfolio/static/media/revicons.e8746a624ed098489406.woff",
-    "static/media/meter2.svg": "/Portfolio/static/media/meter2.1b8f416eccd1ee162218b8528a1c5cdc.svg",
-    "static/media/meter1.svg": "/Portfolio/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
-    "static/media/meter3.svg": "/Portfolio/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
+    "static/media/meter2.svg": "/Portfolio/static/media/meter2.a0050a378a929877ac8144049ee0a1bf.svg",
+    "static/media/meter1.svg": "/Portfolio/static/media/meter1.c61a2fc3fdd79d551b751c6c0f890ab6.svg",
+    "static/media/meter3.svg": "/Portfolio/static/media/meter3.2eda919df32db1af75a222eb99d3a931.svg",
     "static/media/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.webp": "/Portfolio/static/media/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.22e9250a1f887ff8962d.webp",
     "index.html": "/Portfolio/index.html",
-    "main.01045b9d.css.map": "/Portfolio/static/css/main.01045b9d.css.map",
-    "main.da42577c.js.map": "/Portfolio/static/js/main.da42577c.js.map",
+    "main.6e2228ae.css.map": "/Portfolio/static/css/main.6e2228ae.css.map",
+    "main.92d06722.js.map": "/Portfolio/static/js/main.92d06722.js.map",
     "453.f72c7bf9.chunk.js.map": "/Portfolio/static/js/453.f72c7bf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01045b9d.css",
-    "static/js/main.da42577c.js"
+    "static/css/main.6e2228ae.css",
+    "static/js/main.92d06722.js"
   ]
 }
