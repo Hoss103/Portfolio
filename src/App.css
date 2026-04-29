@@ -1,0 +1,633 @@
+.navbar {
+  background-color: #121212 !important;
+}
+
+
+.navbar .vvd {
+  font-weight: 700;
+  color: #fff !important;
+  padding: 14px 28px !important;
+  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%) !important;
+  border: none !important;
+  border-radius: 4px;
+  position: relative;
+  transition: 0.3s ease-in-out !important;
+  cursor: pointer;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .vvd span {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  z-index: 2;
+  color: #fff !important;
+}
+
+/* Hover Effects */
+.navbar .vvd:hover {
+  box-shadow: 0 0 20px rgba(170, 54, 124, 0.6) !important;
+  transform: translateY(-2px);
+  background: linear-gradient(90.21deg, #4a2fbd -5.91%, #aa367c 111.58%) !important;
+}
+
+
+.navbar .vvd::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.navbar .vvd:hover::before {
+  transform: scaleX(1);
+}
+
+.navbar .vvd:hover span {
+  color: #121212 !important;
+}
+
+.vvd span {
+  color: #fff !important;
+}
+
+.vvd:hover {
+  background-color: #fff !important;
+}
+
+.vvd:hover span {
+  color: #121212 !important;
+}
+
+
+.skill {
+  padding: 80px 0;
+  background-color: #121212;
+}
+
+.skill-bx {
+  background: #181818;
+  border-radius: 50px;
+  text-align: center;
+  padding: 60px 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.skill-bx h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.skill-bx p {
+  color: #cccccc;
+  font-size: 18px;
+  margin-bottom: 60px;
+  font-weight: 400;
+}
+
+.skill-slider {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.item h5 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+}
+
+.react-multiple-carousel__arrow {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+.react-multiple-carousel__arrow:hover {
+  background: #000000 !important;
+}
+
+.vvd-pro {
+  font-weight: 700;
+  color: #fff;
+  padding: 14px 32px;
+  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+  border: none;
+  position: relative;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  z-index: 1;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.vvd-pro span {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  z-index: 2;
+}
+
+.vvd-pro svg {
+  transition: 0.3s ease-in-out;
+}
+
+.vvd-pro:hover {
+  box-shadow: 0 0 20px rgba(170, 54, 124, 0.6);
+  transform: translateY(-2px);
+}
+
+.vvd-pro:hover svg {
+  transform: translateX(5px);
+}
+
+
+.vvd-pro::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.vvd-pro:hover::before {
+  transform: scaleX(1);
+}
+
+.vvd-pro:hover span {
+  color: #121212 !important;
+}
+
+/* Centering the text inside the box */
+.project-bx {
+  text-align: center;
+}
+
+/* Custom styling for the Tabs to match your theme */
+.nav-tabs.custom-tabs {
+  border: none;
+  margin-bottom: 30px !important;
+}
+
+.nav-tabs.custom-tabs .nav-link {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 0;
+  padding: 15px;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-tabs.custom-tabs .nav-item.show .nav-link,
+.nav-tabs.custom-tabs .nav-link.active {
+  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+  color: white;
+  border: none;
+}
+
+.tab-content-padding {
+  padding: 20px;
+  color: #cccccc;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#projects {
+  scroll-margin-right: 80px;
+}
+
+/* Project Cards */
+.proj-imgbx {
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 24px;
+  transition: 0.4s ease-in-out;
+}
+
+.Projects h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.Projects p {
+  color: #cccccc;
+  font-size: 18px;
+  margin-bottom: 60px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.proj-imgbx::before {
+  content: "";
+  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+  opacity: 0.85;
+  position: absolute;
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  transition: 0.4s ease-in-out;
+  z-index: 1;
+}
+
+.proj-imgbx:hover::before {
+  height: 100%;
+}
+
+.proj-imgbx img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.proj-txtx {
+  position: absolute;
+  text-align: center;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.proj-imgbx:hover .proj-txtx {
+  top: 50%;
+  opacity: 1;
+}
+
+.proj-txtx h4 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1.1em;
+  color: #ff0000;
+}
+
+.proj-txtx span {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.8px;
+  color: #fff;
+}
+
+/* Custom Nav Pills */
+.nav-pills .nav-link {
+  background-color: transparent;
+  color: #fff;
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 15px 50px;
+  margin: 0 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-pills .nav-link.active {
+  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%) !important;
+  border: 1px solid transparent;
+}
+
+/* --- Global Variables for Easy Tweaking --- */
+:root {
+  --primary-gradient: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  --accent-color: #00d4ff;
+  --glass-bg: rgba(255, 255, 255, 0.08);
+  --glass-border: rgba(255, 255, 255, 0.2);
+  --text-main: #ffffff;
+  --transition-speed: 0.4s;
+}
+
+/* --- Contact Section --- */
+.contact {
+  padding: 100px 0;
+  background: #0f0f15;
+  /* Deep slate background for contrast */
+  position: relative;
+  overflow: hidden;
+}
+
+/* Optional: Subtle background glow */
+.contact::before {
+  content: "";
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(106, 17, 203, 0.3) 0%, transparent 70%);
+  top: 10%;
+  left: -10%;
+  z-index: 0;
+}
+
+.contact .container {
+  position: relative;
+  z-index: 1;
+}
+
+.contact img {
+  width: 100%;
+  max-width: 500px;
+  filter: drop-shadow(0 20px 50px rgba(0, 0, 0, 0.5));
+  border-radius: 30px;
+  transition: transform 0.5s ease;
+}
+
+.contact img:hover {
+  transform: translateY(-10px) scale(1.02);
+}
+
+.contact h2 {
+  font-size: 56px;
+  font-weight: 800;
+  margin-bottom: 40px;
+  background: var(--primary-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* --- Form Design --- */
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  color: #fff;
+  margin-bottom: 20px;
+  padding: 18px 24px;
+  font-size: 16px;
+  backdrop-filter: blur(10px);
+  transition: all var(--transition-speed) cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact form input:focus,
+.contact form textarea:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.15);
+  border-color: var(--accent-color);
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.2);
+  transform: scale(1.01);
+}
+
+/* --- Professional Button --- */
+.contact form button {
+  width: 180px;
+  height: 55px;
+  background: var(--primary-gradient);
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.contact form button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: 0.5s;
+}
+
+.contact form button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.contact form button:hover::after {
+  left: 100%;
+}
+
+/* --- High-End Newsletter Box --- */
+.newsletter-bx {
+  background: rgba(18, 18, 24, 0.8);
+  /* Dark Glass */
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 40px;
+  padding: 60px 80px;
+  margin-top: -100px;
+  /* Overlap effect */
+  margin-bottom: 80px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 5;
+}
+
+.newsletter-bx h3 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+}
+
+/* --- The Input Container --- */
+.new-email-bx {
+  background: #121212;
+  /* Darker core */
+  padding: 8px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease-in-out;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.new-email-bx:focus-within {
+  border-color: #00d4ff;
+  /* Accent color from our variables */
+  box-shadow: 0 0 15px rgba(0, 212, 255, 0.2);
+}
+
+.new-email-bx input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: #fff;
+  padding: 0 25px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.new-email-bx input::placeholder {
+  color: #888;
+}
+
+.new-email-bx input:focus {
+  outline: none;
+}
+
+/* --- Newsletter Submit Button --- */
+.new-email-bx button {
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  color: #fff;
+  border: none;
+  padding: 18px 40px;
+  border-radius: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.new-email-bx button:hover {
+  transform: scale(1.03);
+  box-shadow: 0 5px 15px rgba(37, 117, 252, 0.4);
+  filter: brightness(1.1);
+}
+
+/* --- Alerts Inside Newsletter --- */
+.newsletter-bx .alert {
+  background: rgba(255, 255, 255, 0.05);
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 15px;
+  padding: 10px 20px;
+  border-left: 4px solid #6a11cb;
+}
+
+.newsletter-bx .alert-danger {
+  border-left-color: #ff4b2b;
+}
+
+.newsletter-bx .alert-success {
+  border-left-color: #28a745;
+}
+
+/* --- Mobile Polish --- */
+@media (max-width: 991px) {
+  .newsletter-bx {
+    padding: 40px 30px;
+    margin-top: -50px;
+    text-align: center;
+  }
+
+  .new-email-bx {
+    margin-top: 20px;
+    flex-direction: column;
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+
+  .new-email-bx input {
+    background: #121212;
+    width: 100%;
+    height: 60px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .new-email-bx button {
+    width: 100%;
+    height: 60px;
+  }
+}
+
+/* --- Shabola Eldonya Footer Style --- */
+
+/* --- Shabola Eldonya Footer Style (Always Visible Icons) --- */
+
+.footer {
+  padding: 50px 0;
+  background-color: #121212;
+  background-image: linear-gradient(180deg, #121212 0%, #000000 100%);
+  color: #ffffff;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* The Suit Cat Logo */
+.footer img {
+  width: 120px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Social Icons Container */
+.social-icon {
+  display: inline-flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.social-icon a {
+  width: 45px;
+  height: 45px;
+  /* Removed the dark background to let the icon colors shine */
+  background: rgba(255, 255, 255, 1); 
+  display: inline-flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.social-icon a img {
+  width: 25px !important; 
+  height: 25px;
+  /* REMOVED: filter: brightness(0) invert(1); */
+  /* This ensures the original logo colors show immediately */
+  object-fit: contain; 
+}
+
+/* Hover effect now only adds a slight glow/lift without changing colors */
+.social-icon a:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+  background: #f0f0f0;
+}
+
+.footer p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #b8b8b8;
+  letter-spacing: 0.5px;
+  margin-top: 10px;
+}
